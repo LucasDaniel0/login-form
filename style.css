@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #121214;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main.container {
+    background:#202024;
+    min-width: 320px;
+    min-height: 40vh;
+    padding: 2rem;
+    border-radius: 8px;
+}
+
+main h2 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+	position: relative;
+	color: #DB3E2F;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form .input-field:first-child {
+    margin-bottom: 1.5rem;
+}
+
+.input-field input {
+	background-color: #121214;
+    font-size: 0.9rem;
+	width: 100%;
+	border-radius: 5px;
+    padding: 0.7rem;
+    color: #FFF;
+}
+
+.input-field input:focus {
+	outline: 2px solid #DB3E2F;
+}
+
+.input-field input::placeholder {
+    color: #6E6E6B;
+}
+
+form button[type="submit"] {
+    margin-top: 2rem;
+    padding: 0.4rem;
+    width: 100%;
+    background-color: #DB3E2F;
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+    letter-spacing: 0.5px;
+    background: linear-gradient(to right, #DB3E2F, #202024);
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+footer span {
+    color: #DB3E2F;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+footer .social-field {
+    padding: 0.4rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+footer .social-field a i {
+    margin: 0 0.5rem;
+    width: 15px;
+}
+
+footer .social-field a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+footer .social-field.facebook {
+    background-color: #2a5298;
+}
+
+footer .social-field.github {
+    background-color: #000000;
+}
